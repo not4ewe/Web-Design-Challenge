@@ -49,23 +49,23 @@
 </nav>
 <!-- End of navbar code-->
 
-<!-- Begin of primary content section -->
+	<!--div class="container"-->
 	<div class="container">
         <div class="row row-grid">
             <div class="col-md-7">
                 <div class="section-one">
                     <section id="intro">
-                        <h1>Temperature</h1>
+                        <h1>Temperature - Detailed</h1>
                         <hr>
                         <figure>
-                            <a target="_blank" href="detail_temp_analysis.html">
                                 <!--img id="photo-primary" src="Resources/Fig1.png" alt="latitude vs. x graph"-->
-                                <img class = "img-responsive" src="Resources/Fig1.png" style="width:100%; margin: 5px;" alt="first image" >
+                                <img class = "img-responsive" src="Resources/NHemiLR.png" style="width:100%; margin: 5px;" alt="first image" >
+                                <img class = "img-responsive" src="Resources/SHemiLR.png" style="width:100%; margin: 5px;" alt="first image" >
                             </a>
                         </figure>
 						<!-- written explanation/summary -->
                         <section id="body-text">
-                            <p>The graph observes the relationship between latitude and temperature. Temperature has a clear correlation with latitude. The weather becomes significantly warmer as one approaches the equator (0 degrees latitude).</p>
+                            <p>We use a linear relationship to predict the (average) numerical value of Max Temp for a given value of Latitude using a straight line (called the regression line). Knowing the the slope and the y-intercept of that regression line, we can plug in a value for Latitude and predict the average Max Temperature.</p>
                         </section>
                     </section>
                 	<!-- end of primary content section -->
@@ -88,6 +88,7 @@
 	                        </div>
 	                        <!-- define these three classes in order to adapt to multiple screen sizes -->
 	                        <div class="col-xs-4 col-md-6">
+	                        <!-- <div class="col-md-6">     -->
 	                            <figure>
 	                                <a href="humidity_analysis.html">
 	                                    <img id="other-visualizations-photo" src="Resources/Fig2.png" alt="Latitude vs. Humidity" class="img-thumbnail">
