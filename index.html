@@ -18,20 +18,22 @@
 
 <body>
 	<!-- implementing the navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a href="#" class="navbar-brand">Latitude</a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class=" nav navbar-nav">
-            <li class="nav-item dropdown">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="d-flex w-75 order-0">
+        <a href="index.html" class="navbar-brand">Latitude</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
                 <div class="dropdown-menu">
-                    <a href="Dropdown_Pages/temp_analysis.html" class="dropdown-item">Temperature</a>
-                    <a href="Dropdown_Pages/humidity_analysis.html" class="dropdown-item">Humidity</a>
-                    <a href="Dropdown_Pages/cloudiness_analysis.html" class="dropdown-item">Cloudiness</a>
-                    <a href="Dropdown_Pages/windiness_analysis.html" class="dropdown-item">Wind Speed</a>
+                    <a href="temp_analysis.html" class="dropdown-item">Temperature</a>
+                    <a href="humidity_analysis.html" class="dropdown-item">Humidity</a>
+                    <a href="cloudiness_analysis.html" class="dropdown-item">Cloudiness</a>
+                    <a href="windiness_analysis.html" class="dropdown-item">Wind Speed</a>
                     <div class="dropdown-divider"></div>
                     <a href="index.html"class="dropdown-item">Home</a>
                 </div>
@@ -50,14 +52,14 @@
 		<!-- creating a section of the initial article -- kind of the focal point of the first page -->
 	<div class="container">
         <div class="row row-grid">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="section-one">
                     <section id="intro">
                         <h1>Summary: Latitude vs. X</h1>
                         <hr>
                         <figure>
-                            <a target="_blank" href="Dropdown_Pages/temp_analysis.html">
-                                <img id="photo-primary" src="Resources/assets/images/Fig1.png" alt="latitude vs. x graph">
+                            <a target="_blank" href="temp_analysis.html">
+                                <img id="photo-primary" src="Resources/Map1.png" class="img-thumbnail" alt="latitude vs. x graph">
                             </a>
                         </figure>
 
@@ -71,41 +73,41 @@
                 </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="section-two">
-                    <h2>Visualizations</h2>
+                    <h1>Visualizations</h1>
                     <hr>
 	                    <div class="row">
 	                    	<!-- define these three classes in order to adapt to multiple screen sizes -->
-	                        <div class="col-xs-6 col-sm-3 col-md-6">
+	                        <div class="col-xs-4 col-md-6">
 	                            <figure>
-	                                <a href="Dropdown_Pages/temp_analysis.html">
-	                                    <img id="other-visualizations-photo" src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature">
+	                                <a href="temp_analysis.html">
+	                                    <img id="other-visualizations-photo" src="Resources/Fig1.png" alt="Latitude vs. Temperature" class="img-thumbnail">
 	                                </a>
 	                            </figure>
 	                        </div>
 	                        <!-- define these three classes in order to adapt to multiple screen sizes -->
-	                        <div class="col-xs-6 col-sm-3 col-md-6">
+	                        <div class="col-xs-4 col-md-6">
 	                        <!-- <div class="col-md-6">     -->
 	                            <figure>
-	                                <a href="Dropdown_Pages/humidity_analysis.html">
-	                                    <img id="other-visualizations-photo" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+	                                <a href="humidity_analysis.html">
+	                                    <img id="other-visualizations-photo" src="Resources/Fig2.png" alt="Latitude vs. Humidity" class="img-thumbnail">
 	                                </a>
 	                            </figure>
 	                        </div>
 	                        <!-- define these three classes in order to adapt to multiple screen sizes -->
-	                        <div class="col-xs-6 col-sm-3 col-md-6">
+	                        <div class="col-xs-4 col-md-6">
 	                            <figure>
-	                                <a href="Dropdown_Pages/cloudiness_analysis.html">
-	                                    <img id="other-visualizations-photo" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness">
+	                                <a href="cloudiness_analysis.html">
+	                                    <img id="other-visualizations-photo" src="Resources/Fig3.png" alt="Latitude vs. Cloudiness" class="img-thumbnail">
 	                                </a>
 	                            </figure>
 	                        </div>
 	                        <!-- define these three classes in order to adapt to multiple screen sizes -->
-	                        <div class="col-xs-6 col-sm-3 col-md-6">
+	                        <div class="col-xs-4 col-md-6">
 	                            <figure>
-	                                <a href="Dropdown_Pages/windiness_analysis.html">
-	                                    <img id="other-visualizations-photo" src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+	                                <a href="windiness_analysis.html">
+	                                    <img id="other-visualizations-photo" src="Resources/Fig4.png" alt="Latitude vs. Wind Speed" class="img-thumbnail">
 	                                </a>
 	                            </figure>
 	                        </div>
